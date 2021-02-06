@@ -31,4 +31,7 @@ Describe any challenges encountered while building the app.
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5844283c19e19b7b134309ae4cecc1d335647281

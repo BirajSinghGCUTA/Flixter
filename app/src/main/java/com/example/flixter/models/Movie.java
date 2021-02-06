@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 @Parcel
 public class Movie {
+
+    int MovieId;
     String posterPath;
     String title;
     String overview;
@@ -25,6 +27,7 @@ public class Movie {
         overview = jsonObject.getString("overview");
         backdropPath = jsonObject.getString("backdrop_path");
         rating = jsonObject.getDouble("vote_average");
+        MovieId = jsonObject.getInt("id");
     }
 
     public static List<Movie> fromJsonArray(JSONArray movieJsonArray) throws JSONException {
@@ -52,5 +55,8 @@ public class Movie {
 
     public double getRating() {
         return rating;
+    }
+    public int getMovieId() {
+        return MovieId;
     }
 }
